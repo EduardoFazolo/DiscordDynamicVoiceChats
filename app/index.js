@@ -26,7 +26,7 @@ async function main(){
 	}
 
     // Await for the mongoose connection
-    await mongoose.connect(mongodbURL + "GuildCategories", {useNewUrlParser: true}).then(()=> console.log("Mongoose connection was successful!")).catch("Not connected");
+    await mongoose.connect(mongodbURL, {useNewUrlParser: true}).then(()=> console.log("Mongoose connection was successful!")).catch("Not connected");
 
 	client.on('ready', () => {
 		console.log(`Logged in as ${client.user.tag}!`);
