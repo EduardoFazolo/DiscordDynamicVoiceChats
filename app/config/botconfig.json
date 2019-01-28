@@ -1,0 +1,6 @@
+{
+    "token":"",
+    "mongodbURL":"mongodb://localhost/",
+    "WIPE_DELAY": 100000,
+    "prefix": "-"
+}

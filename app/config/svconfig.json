@@ -1,0 +1,53 @@
+{
+    "categories":[
+        {
+            "name":"Private trading",
+            "limited":false,
+            "userLimit": 2,
+            "hasDefinedNames":false,
+            "channelName":"Trade"
+        },
+        {
+            "name":"Small voice channels",
+            "limited":false,
+            "userLimit": 4,
+            "hasDefinedNames":false,
+            "channelName":"Squad"
+        },
+        {
+            "name":"Large voice channels",
+            "channels":[
+                "[Squad Alfa]",
+                "[Squad Bravo]",
+                "[Squad Charlie]",
+                "[Squad Delta]",
+                "[Squad Echo]",
+                "[Squad Foxtrot]",
+                "[Squad Golf]",
+                "[Squad Hotel]",
+                "[Squad India]",
+                "[Squad Juliett]",
+                "[Squad Kilo]",
+                "[Squad Lima]",
+                "[Squad Mike]",
+                "[Squad November]",
+                "[Squad Oscar]",
+                "[Squad Papa]",
+                "[Squad Quebec]",
+                "[Squad Romeo]",
+                "[Squad Sierra]",
+                "[Squad Tango]",
+                "[Squad Uniform]",
+                "[Squad Victor]",
+                "[Squad Whiskey]",
+                "[Squad X]-[Squad ray]",
+                "[Squad Yankee]",
+                "[Squad Zulu]."
+               ],
+            "limited":true,
+            "userLimit": 10,
+            "hasDefinedNames":true
+        }
+    ]
+
+}
