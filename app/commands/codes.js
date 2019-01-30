@@ -10,7 +10,12 @@ module.exports.run = async (client, message, args) => {
     let codes = await request_codes();
     let silos = ['Alpha', 'Beta', 'Charlie'];
     codes = codes.map( (code,i) => "**Silo " + silos[i] + ":** " + code + "\n");
-    message.reply("The codes are:\n" + codes);
+    let silo_codes = {
+        a:codes[0],
+        b:codes[1],
+        c:codes[2]
+    }
+    message.reply("The codes are:\n" + silo_codes.a + silo_codes.b + silo_codes.c);
 }
 
 module.exports.help = {
