@@ -6,7 +6,7 @@ const request_codes = () => new Promise((resolve, reject) => request({url: 'http
 }));
 
 module.exports.run = async (client, message, args) => {
-    if(message.channel.name.toLowerCase() !== 'news-and-resources') return;
+    if(message.channel.name.toLowerCase() !== 'nuke_advertisements') return;
     let codes = await request_codes();
     let silos = ['Alpha', 'Beta', 'Charlie'];
     codes = codes.map( (code,i) => "**Silo " + silos[i] + ":** " + code + "\n");
