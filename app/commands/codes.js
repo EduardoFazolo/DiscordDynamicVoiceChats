@@ -12,3 +12,8 @@ module.exports.run = async (client, message, args) => {
     codes = codes.map( (code,i) => "Silo " + silos[i] + ":" + code + "\n");
     message.reply("The codes are: " + codes);
 }
+
+module.exports.help = {
+    name: "codes",
+    content:"you know how it works.."
+}
