@@ -18,7 +18,6 @@ const prefix = require('./config/botconfig.json').prefix;
 const token = process.env.token;
 //const token = require('./config/botconfig.json').token;
 
-
 async function main(){
 
     if(token == ""){
